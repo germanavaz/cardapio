@@ -1,0 +1,75 @@
+body {
+    background-color: #EAF5ED;
+    margin: 0;
+}
+
+header, .context, .localizacao, .comopedir {
+    text-align: center;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: greenyellow;
+    margin-bottom: 30px;
+}
+.estabelecimento {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #196161;
+}
+
+.slogan {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.produtos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.produto {
+    background: white;
+    border: 3px solid #d7d7d7;
+    padding: 40px 80px;
+    margin: 10px;
+    display: flex;
+
+}
+
+.teste {
+    width: 50%;
+    text-align: center;
+}
+
+.info {
+    padding: 40px;
+    
+}
+
+.preco {
+    font-weight: bold;
+    background-color: #d7d7d7;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+h3, h2 {
+    font-size: 25px;
+}
+
+.descricao, .preco, p {
+    font-size: 20px;
+}
+
+.localizacao {
+    background-color: greenyellow;
+    padding: 50px 0px;
+    margin-top: 40px;
+}
+
+.comopedir {
+    background-color: aqua;
+    padding: 50px 0;    
+}

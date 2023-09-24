@@ -1,27 +1,29 @@
 body {
     background-color: #EAF5ED;
+    font-family: 'Inclusive Sans', sans-serif;
     margin: 0;
-}
-
-header, .context, .localizacao, .comopedir {
     text-align: center;
 }
 
 header {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: greenyellow;
+    background-color: #283618;
     margin-bottom: 30px;
 }
 .estabelecimento {
     font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #196161;
+    color: #BC6C25;
 }
 
 .slogan {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #DDA15E;
+    font-size: 1.2rem;
+}
+
+.titulo {
+    text-transform: uppercase;
+    color: #283618;
 }
 
 .produtos {
@@ -30,46 +32,58 @@ header {
 }
 
 .produto {
-    background: white;
-    border: 3px solid #d7d7d7;
-    padding: 40px 80px;
-    margin: 10px;
+    background-color: beige;
     display: flex;
-
+    border-radius: 50px;
+    margin-bottom: 1rem;
 }
 
-.teste {
-    width: 50%;
-    text-align: center;
+.produto img {
+    border-radius: 50px;
+    max-width: 400px;
 }
 
-.info {
-    padding: 40px;
-    
+.descricao {
+    padding: 2rem;
+}
+
+.descricao-prato {
+    color: #283618;
+}
+
+.cima {
+    display: flex;
+    justify-content: space-between;
 }
 
 .preco {
-    font-weight: bold;
-    background-color: #d7d7d7;
-    padding: 5px;
-    border-radius: 10%;
+    color: #606C38;
 }
 
-h3, h2 {
-    font-size: 25px;
-}
-
-.descricao, .preco, p {
-    font-size: 20px;
-}
 
 .localizacao {
-    background-color: greenyellow;
+    background-color: #283618;
+    color: #DDA15E;
     padding: 50px 0px;
     margin-top: 40px;
 }
 
-.comopedir {
-    background-color: aqua;
-    padding: 50px 0;    
+
+@media (max-width:800px) {
+    iframe {
+        width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .produto {
+        flex-direction: column;
+    }
+
+    iframe {
+        display: none;
+    }
+
+
 }

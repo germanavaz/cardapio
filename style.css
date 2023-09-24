@@ -32,7 +32,7 @@ header {
 }
 
 .produto {
-    background-color: beige;
+    background-color: #FEFAE0;
     display: flex;
     border-radius: 50px;
     margin-bottom: 1rem;

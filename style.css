@@ -27,7 +27,7 @@ header {
 }
 
 .produtos {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -68,11 +68,19 @@ header {
     margin-top: 40px;
 }
 
+@media (max-width:1050px) {
+    .produtos {
+        width: 90%;
+    }
+}
+
 
 @media (max-width:800px) {
     iframe {
         width: 450px;
     }
+
+
 }
 
 @media (max-width: 500px) {

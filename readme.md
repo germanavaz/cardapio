@@ -6,7 +6,7 @@ Bem-vindo ao nosso restaurante virtual! Aqui no "MUI", nossa especialidade é se
 
 Este repositório foi criado como parte do programa "Elas na Tech", onde mergulhamos de cabeça no mundo da programação e design web. Nossa missão? Simular um cardápio de restaurante usando HTML e CSS!
 
-Confira [aqui](https://germanavaz.github.io/cardapio/){:target="\_blank"}!
+Confira [aqui](https://germanavaz.github.io/cardapio/)!
 
 ## 🚀 Tecnologias Utilizadas
 
